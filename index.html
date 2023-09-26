@@ -1,21 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="src/assets/HUYNHDAI-logo-white.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Dai Portfolio"
-    />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+<body>
+    <header class="header">
+            <a href="" class="logo">Daihuynh</a>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#page1">Home</a></li>
+                    <li><a href="#page2">About</a></li>
+                    <li><a href="#page3">Services</a></li>
+                    <li><a href="#page4">Project</a></li>
+                    <li><a href="#page5">Contact</a></li>
 
-    <title>Dai Portfolio</title>
-    <link rel ="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+                </ul>
+            </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Dai.</span></h1>
+            <h3>Frontend Developer</h3>
+            <p>I am a Junior at the University of Cincinnati, majoring in Information Technology with the Software Development track. I am an international student from Vietnam and have a huge passion in website development. I have been studied abroad for almost 5 years. To me, not only this is a fun experience, but it is also a challenge for me. I have to prove to everyone that I am a great son, a hardworking student, and a successful employer. Read below to understand more about me!</p>
+            <div class="btn-box">
+                <a href="#page4">My Projects</a>
+                <a href="#page5">Contact Me</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="home-page-img-removebg-preview.png" >
+        </div>
+    </section>
+    
+    <section class="about" id="page2">
+            <img src="aboutIMG.jpg">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h3>Frontend Developer</h3>
+                <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. I can provide clean code and pixel perfect design. I also make the website enjoyable, and useful to all the users based on the target users. A responsive design makes your website accessible to all users, regardless of their device </p>
+            </div>
+    </section>
 
-  </body>
+    <section class="service" id="page3">
+            <div class="title">
+                <h2> Services</h2>
+            </div>
+
+        <div class="box">
+            <div class = "card">
+                <i class='bx bx-news'></i>
+                <h4>Web Development</h4>
+                <div class="pra">
+                    <p>Working with UX/UI design team for User Experience processes including building a reponsive website from scratch. Advancedly use HTML,CSS, and JavaScript. Having a base knowdledge on wirefram layout to come up with multiple ideas that fit business needs and goals.  </p>
+                </div>
+                <button>Read More</button>
+            </div>
+
+
+            <div class = "card">
+                <i class='bx bxs-network-chart' ></i>
+                <h4>UX/UI Design</h4>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati optio vitae aspernatur deserunt ipsam soluta numquam nostrum accusamus exercitationem illo, voluptatum ullam unde. Ipsum corrupti atque earum consectetur iste. </p>
+                </div>
+                <button>Read More</button>
+            </div>
+
+
+            <div class = "card">
+                <i class='bx bxs-edit-alt' ></i>
+                <h4>Graphic Design</h4>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati optio vitae aspernatur deserunt ipsam soluta numquam nostrum accusamus exercitationem illo, voluptatum ullam unde. Ipsum corrupti atque earum consectetur iste. </p>
+                </div>
+                <button>Read More</button>
+            </div>
+
+            <div class = "card">
+                <i class='bx bx-chalkboard' ></i>
+                <h4>Website Research</h4>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati optio vitae aspernatur deserunt ipsam soluta numquam nostrum accusamus exercitationem illo, voluptatum ullam unde. Ipsum corrupti atque earum consectetur iste. </p>
+                </div>
+                <button>Read More</button>
+            </div>
+
+            <div class = "card">
+                <i class='bx bx-chalkboard' ></i>
+                <h4>System Dev</h4>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati optio vitae aspernatur deserunt ipsam soluta numquam nostrum accusamus exercitationem illo, voluptatum ullam unde. Ipsum corrupti atque earum consectetur iste. </p>
+                </div>
+                <button>Read More</button>
+            </div>
+
+            <div class = "card">
+                <i class='bx bx-chalkboard' ></i>
+                <h4>Project Management</h4>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati optio vitae aspernatur deserunt ipsam soluta numquam nostrum accusamus exercitationem illo, voluptatum ullam unde. Ipsum corrupti atque earum consectetur iste. </p>
+                </div>
+                <button>Read More</button>
+            </div>
+    </section>
+
+    <section class="project" id="page4">
+            <div class="title">
+                <h2>My Project</h2>
+            </div>
+
+            <div class="box">
+                
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="dining hall.jpg" alt="Avatar">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>UC Dining Hall ReDesign</h1> 
+                        <p>Understanding basic steps of designing a system and a website including developing wireframes, prototypes, sketches, and HTI model,...</p> 
+                      </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="web-dev.jpg" alt="Avatar">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Web Design</h1> 
+                        <p>Developing a restaurant website using HTML, CSS, JavaScript, and Figma. Making website run responsively, functionally, and informatively to enhance user experience. Receiving a full score for the project working on class.</p> 
+                      </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="ux-des.webp" alt="Avatar">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>E-commerce Website</h1> 
+                        <p>Developing an e-commerce website like Amazon with ReactJS and Figma. Improving the effiency of the website as well as the functionality.</p> 
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="contact" id="page5">
+        <h2> Get In Touch</h2>
+        <div class="contact-container">
+            <div class="form-container">
+              <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            <div class="message-container">
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="slide-card swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="kempster.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-cont">
+                                    <h2>Kyle Kempster</h2>
+                                    <p class="description">"I had a great time working with Brian. He is a hard-working student who are always willing to learn new things and enjoy helping other students at WMC."</p>
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                        
+    
+                                <div class="slide-card swiper-slide">
+                                    <div class="image-content">
+                                        <div class="card-image">
+                                            <img src="ella.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                                    <div class="card-cont">
+                                        <h2>Ella Terselic</h2>
+                                        <p class="description">"We have the same Website Development course and Dai has proved to the team why he is suitable for the roles of Designer and Project Management. Dai is hard-working, careful, and creative. He makes sure everthing goes on plan and improves our project surpass than we expected. It is a great experience working with him.   "</p>
+                                        <button class="button">View More</button>
+                                    </div>
+                                </div>
+                                
+                                    <div class="slide-card swiper-slide">
+                                        <div class="image-content">
+                                            <div class="card-image">
+                                                <img src="tyler.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-cont">
+                                            <h2>Tyler Meiners</h2>
+                                            <p class="description">"Working with Dai is an exciting journey. He shared with me new things that he learns everytime we have a team meeting. We all have great passion on Web Development and UX design. During the course of IT1080, the proffesor was always impressed by our products. "</p>
+                                            <button class="button">View More</button>
+                                        </div>
+                                    </div>  
+                                </div>
+                                    <div class="swiper-pagination"></div>
+                            </div>
+                </div>
+
+              <div class="home-sci">
+                <a href="https://www.facebook.com/profile.php?id=100017514600517" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://github.com/huynhdu-coder" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/huynhdai/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="" class="logo">Daihuynh</a>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#page1">Home</a></li>
+                    <li><a href="#page2">About</a></li>
+                    <li><a href="#page3">Services</a></li>
+                    <li><a href="#page4">Project</a></li>
+                    <li><a href="#page5">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-info">
+            &copy; 2023 Dai Huynh
+        </div>
+    </footer>
+</body>
+<script src="swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </html>
